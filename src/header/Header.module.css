@@ -1,5 +1,8 @@
 .header {
     height: 80px;
-    background-color: brown;
-    font-size: 30px;
+    background-color: rgb(166, 188, 209);
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
