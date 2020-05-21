@@ -1,0 +1,38 @@
+.work {
+  width: 300px;
+  background-color: rgb(131, 150, 147);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.workOne{
+  background-color: rgb(197, 176, 176);
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.workTwo{
+  background-color: rgb(245, 156, 156);
+  align-items: flex-start;
+}
+
+.title {
+  height: 30px;
+  width: 240px;
+  background-color: rgb(184, 181, 181);
+}
+
+.description {
+  height: 100px;
+  width: 280px;
+  background-color: rgb(184, 181, 181);
+}

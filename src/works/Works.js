@@ -1,24 +1,20 @@
 import React from "react";
-import styles from "./Skills.module.css";
+import styles from "./Works.module.css";
 import stylesContainer from "../common/styles/Container.module.css";
-import Skill from "./skill/Skill";
+import Work from "./work/Work";
 
-function Skills() {
+function Works() {
   return (
     <div className={styles.skillsBlock}>
       <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
-        <h2 className={styles.title}>Skills</h2>
+        <h2 className={styles.title}>My works</h2>
         <div className={styles.skills}>
-          <Skill
-            title={"JS"}
+          <Work
+            title={"My project1"}
             description={"Lorem Lorem LoremL oremLorem LoremLo remLorem"}
           />
-          <Skill
-            title={"CSS"}
-            description={"Lorem Lorem LoremL oremLorem LoremLo remLorem"}
-          />
-          <Skill
-            title={"REACT"}
+          <Work
+            title={"My project2"}
             description={"Lorem Lorem LoremL oremLorem LoremLo remLorem"}
           />
         </div>
@@ -27,4 +23,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Works;
