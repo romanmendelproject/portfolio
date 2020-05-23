@@ -6,7 +6,7 @@ function Contacts() {
   return (
     <div className={styles.contactsBlock}>
       <div className={`${stylesContainer.container} ${styles.contactsContainer}`}>
-        <h3 className={styles.text}>Контакты</h3>
+        <h3 className={styles.text}>Contacts</h3>
         <div className={styles.main}>
           <form className={styles.form}>
             <input className={styles.input} type="text"></input>
@@ -14,7 +14,7 @@ function Contacts() {
             <textarea className={styles.textArea}name="comment" placeholder="Комментарий"></textarea>
           </form>
         </div>
-        <div className={stylesContainer.button}>Отправить</div>
+        <div className={stylesContainer.button}>Send</div>
       </div>
     </div>
   );

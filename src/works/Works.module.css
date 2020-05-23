@@ -3,19 +3,33 @@
   background: rgb(201, 192, 111);
 }
 
+.container760Block {
+  height: 160vh;
+}
+
 .skillsContainer {
-justify-content: flex-start;
-    flex-direction: column;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 .skills {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  border: 1px solid;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container760Skills{
+  justify-content: center;
 }
 
 .title {
-    background: rgb(175, 134, 134);
-  }
+  background: rgb(175, 134, 134);
+}
+
+.skillsWraper {
+  width: 100%;
+  height: 100%;
+}

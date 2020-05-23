@@ -6,8 +6,8 @@ function Work(props) {
   return (
     <div className={styles.work}>
       <div className={styles.workOne}>
-        <img src="" alt="Картинка"></img>
-        <div className={stylesContainer.button}>Смотреть</div>
+        <img src="" alt="Image"></img>
+        <div className={stylesContainer.button}>Open</div>
       </div>
       <div className={`${styles.workOne} ${styles.workTwo}`}>
         <span className={styles.title}>{props.title}</span>

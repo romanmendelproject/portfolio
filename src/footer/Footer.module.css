@@ -1,22 +1,16 @@
 .contactsBlock {
     height: 70vh;
-    background: rgb(241, 191, 224);
+    background: rgb(128, 102, 119);
 }
 
 .main {
     border: 1px solid;
-    width: 80%;
-    height: 200px;
-}
-
-.form{
+    width: 70%;
+    height: 100px;
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
     justify-content: space-between;
-
 }
+
 
 .contactsContainer {
     display: flex;
@@ -24,12 +18,9 @@
     justify-content: space-between;
 }
 
-.input {
+.protect {
+    width: 60%;
     background-color: gray;
-    height: 20px;
-}
-
-.textArea {
-    background-color: gray;
-    height: 120px;
+    text-align: center;
+    height: 30px;
 }
